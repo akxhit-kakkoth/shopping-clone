@@ -239,35 +239,30 @@ span{
 
 }
 /* 3rd box scrolling wala */
-.scroll-main{
-    height: 300px;
-    background-color: #ffce12;
-}
 .scroll-container{
+    width: 1432px;
     height: 280px;
-    padding-top: 20px;
-    background-color: #dcdbd8;
-    /* display: flex; */
-    
+    background-color:#dddcdc;
+    padding: 10px 20px;
 }
 .scroll-heading{
-    font-size: 21px;
-    padding-top: 1rem;
-    margin-left: 1.4rem;
-
-    width: 97%;
     background-color: rgb(255, 255, 255);
 }
-.scroll-box{
-    height: 200px;
-    width: 97%;
-    background-color: #2162a1;
-    margin-left: 1.4rem;
-    display: flex;
-    gap: 20px;
+.scroll-wrapping, h3{
+    padding-top: 1rem;
+    padding-left: 1rem;
 }
-.scroll-img{
-    height: 200px;
-    width: 131px;
-    background-color: #f5f5f5;
+.scroll-wrapping{
+    background-color: rgb(255, 255, 255);
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+.child{
+    height: 196px;
+    width: 140px;
+    background-color: #cccccc;
+    display: inline-block;
+    /* margin: 10px; */
 }
