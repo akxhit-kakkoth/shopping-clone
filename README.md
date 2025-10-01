@@ -1,10 +1,36 @@
-## Disclaimer
+# 🛍️ Shopping Website Clone
 
-This project is developed purely for **educational and learning purposes**.  
-It is a **frontend clone** inspired by the Amazon shopping website and is not intended for commercial use.  
+A simple front-end shopping website clone built using **HTML & CSS** for learning and practice purposes.  
+This project is **not an actual e-commerce platform** and does not process payments or collect any user data.
+It is **not affiliated with, endorsed by, or connected to Amazon or any other company**.  
+No real transactions happen on this site.
+---
 
-- This project is **not affiliated with, endorsed by, or connected to Amazon.com, Inc.** or any of its subsidiaries.  
-- All logos, trademarks, and brand names used in this project belong to their respective owners.  
-- Any Amazon-related images, icons, or branding shown here are for **educational demonstration only** and should not be used in production.  
+## 🚀 Live Demo
+🔗 [View Project on Netlify](https://iridescent-cucurucho-9cc48c.netlify.app/)
 
-If you are an owner of any content used here and want it removed, please contact me, and I will take action immediately.
+---
+
+## 📌 Features
+- 🏠 Home page with navigation bar  
+- 🖼️ Product showcase sections  
+- 🎨 Styled using pure CSS  
+- 📱 Responsive design basics  
+- 📜 Simple scrolling and layout demo  
+
+---
+
+## 🛠️ Tech Stack
+- **HTML5**
+- **CSS3**
+
+---
+
+## ⚠️ Disclaimer
+This project is created **strictly for educational purposes**.  
+It is **not affiliated with or endorsed by Amazon or any other company**.  
+All logos, trademarks, and brand names used in the original design belong to their respective owners.  
+
+---
+
+## 📂 Folder Structure
