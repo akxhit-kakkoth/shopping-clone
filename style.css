@@ -266,3 +266,45 @@ span{
     display: inline-block;
     /* margin: 10px; */
 }
+
+/*  */
+
+.recommendations-container{
+    height: 188px;
+    background-color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column-reverse; */
+    align-items: center;
+}
+
+.recommendations-main{
+    height: 148px;
+    background-color: #fffdfd;
+    width: 100%;
+    border-top: 1px solid rgb(205, 202, 202);
+    border-bottom: 1px solid rgb(205, 202, 202);
+    
+}
+.recommendation-content{
+    text-align: center;
+    margin-top: 40px;
+    
+
+}
+.recommendation-content button{
+    border-radius: 120px;
+    padding: 8px 100px;
+    background-color: #ffce12;
+    border: none;
+    margin-top: 6px;
+    font-size: 14px;
+    
+}
+.recommendation-content p{
+    margin-top: 3px;
+    font-size: 11px;
+}
+.start-here{
+    color: #2162a1;
+}
