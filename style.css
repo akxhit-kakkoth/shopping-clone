@@ -22,6 +22,7 @@
     height: 50px;
     width: 100%;
     background-size: cover;
+    cursor: pointer;
 }
 .border{
     border: 1.5px solid transparent;
@@ -33,6 +34,9 @@
 .nav-icon{
     display: flex;
     align-items: center;
+}
+.nav-addres{
+    cursor: pointer;
 }
 .add-first{
     color: #cccccc;
@@ -62,6 +66,7 @@
     width: 45px;
     text-align: center;
     border: none;
+    cursor: pointer;
 }
 
 .search-input{
@@ -79,6 +84,7 @@
     justify-content: center;
     font-size: 1.2rem;
     color: #0f1111;
+    cursor: pointer;
 }
 /* box4 */
 .nav-country{
@@ -86,6 +92,7 @@
     width: 60px;
     height: 55px;
     gap: 5px;
+    cursor: pointer;
 }
 .nav-flag ,img{
     margin-top: 0.8rem;
@@ -99,6 +106,10 @@
     height: 15px;
     background-color: #0f1111;
 }
+.border{
+    cursor: pointer;
+}
+
 /* box5 */
 span{
     font-size: 0.8rem;
@@ -128,6 +139,7 @@ span{
     margin-left: 12px;
     font-size: 15px;
     font-weight: 700;
+    cursor: pointer;
 }
 .panel-all i{
     font-size: 1.2rem;
@@ -136,9 +148,9 @@ span{
     display: inline;
     margin-left: 10px;
     font-size: 15px;
+    cursor: pointer;
 }
-.panel-ops{
-}
+
 
 /* hero-sections */
 .hero-section{
@@ -184,6 +196,7 @@ span{
     background-color: #f5f5f5;
     padding: 20px 0px 15px;
     margin-top: 20px;
+    
 }
 
 .box-img{
@@ -191,6 +204,7 @@ span{
     background-size: cover;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    cursor: pointer;
     /* align-items: center; */
 }
 .box-content{
@@ -201,6 +215,7 @@ span{
 .box-content p{
     color: #2162a1;
     font-size: 13px;
+    cursor: pointer;
 }
 
 
@@ -223,10 +238,12 @@ span{
     text-align: center;
     height: 50px;
     width: 100px;
+    cursor: pointer;
 }
 .box-collab p{
     color: #0f1111;
     font-size: 12px;
+    cursor: pointer;
 
 }
 .multiple-box p{
@@ -258,6 +275,7 @@ span{
     overflow-y: hidden;
     flex-wrap: nowrap;
     white-space: nowrap;
+    cursor: pointer;
 }
 .child{
     height: 196px;
@@ -299,6 +317,7 @@ span{
     border: none;
     margin-top: 6px;
     font-size: 14px;
+    cursor: pointer;
     
 }
 .recommendation-content p{
@@ -307,9 +326,12 @@ span{
 }
 .start-here{
     color: #2162a1;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .back-to-top{
+    cursor: pointer;
     height: 49px;
     background-color: #314254;
 }
@@ -343,21 +365,23 @@ ul a{
     margin-top: 60px;
     font-size:16px 
 }
+.footer-one a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
 /*  */
 .footer-two{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 520px;
+    padding: 10px 468px;
     background-color: #222f3d;
     border-top: 1px solid rgb(83, 82, 82);
     gap: 30px;
+    
 }
 .footer-logo{
-    /* padding-bottom: 5px; */
-    /* background-color: #ffe479; */
-    /* height: 40px; */
-    /* gap: 90px; */
+    cursor: pointer;
     width: 90px;
 }
 .footer-logo img{
@@ -366,6 +390,7 @@ ul a{
     height: 50px;
     object-fit: cover;
 }
+
 .lan ,.doller,.country {
     background-color: transparent;
     color: white;
@@ -374,4 +399,57 @@ ul a{
     padding: 12px 21px 6px 8px;
     border-radius: 3px;
     margin: 0px 3px 0px 0px;
+    cursor: pointer;
+}
+
+/*  */
+.footer-three{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#131A22;
+    padding: 40px 270px;
+}
+.footer-col{
+    width: 100px;
+    margin: 10px 20px;
+    /* background-color: #232322; */
+}
+.footer-col h4{
+    font-size: 12px;
+    margin-bottom: 4px;
+    color: #dddddd;
+}
+.footer-col p{
+    font-size: 12px;
+    color: #999999;
+}
+.footer-col h4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer-col p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*  */
+.footer-four{
+    background-color: #131A22;
+}
+.row1{
+    display: flex;
+    padding: 0px 450px;
+    gap: 20px;
+}
+.row1 ,.row2 p{
+    font-size: 12px;
+    color: #dddddd;
+    background-color: #131A22;
+}
+.row2{
+    padding: 4px 635px;
+    padding-bottom: 40px;
+}
+.row1 p:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
