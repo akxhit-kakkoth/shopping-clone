@@ -308,3 +308,70 @@ span{
 .start-here{
     color: #2162a1;
 }
+
+.back-to-top{
+    height: 49px;
+    background-color: #314254;
+}
+    
+.back-to-top p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+}
+
+/* footer-one */
+.footer-one{
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 185px;
+    padding-right: 185px;
+}
+ul a{
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #dddddd;
+    
+}
+.footer-one p{
+    font-weight: bold;
+    margin-top: 60px;
+    font-size:16px 
+}
+/*  */
+.footer-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 520px;
+    background-color: #222f3d;
+    border-top: 1px solid rgb(83, 82, 82);
+    gap: 30px;
+}
+.footer-logo{
+    /* padding-bottom: 5px; */
+    /* background-color: #ffe479; */
+    /* height: 40px; */
+    /* gap: 90px; */
+    width: 90px;
+}
+.footer-logo img{
+    
+    width: 90px;
+    height: 50px;
+    object-fit: cover;
+}
+.lan ,.doller,.country {
+    background-color: transparent;
+    color: white;
+    font-size: 13px;
+    border: 0.1px solid white;
+    padding: 12px 21px 6px 8px;
+    border-radius: 3px;
+    margin: 0px 3px 0px 0px;
+}
