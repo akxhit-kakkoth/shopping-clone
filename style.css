@@ -111,10 +111,15 @@
 }
 
 /* box5 */
+.nav-signup{
+    text-decoration: none;
+}
 span{
     font-size: 0.8rem;
+    color: white;
 }
 .nav-second{
+    color: white;
     font-weight: 700;
 }
 /* box6 */
