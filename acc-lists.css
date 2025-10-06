@@ -74,9 +74,43 @@
     flex-wrap: wrap;
     margin-top: 1rem;
 }
-.card2{
-    width: 318px;
+.first-row{
+    width: 288px;
     height: 430px;
     background-color: #bababa;
-    
+    padding: 14px 18px;
+    display: block;
+}
+.inner-box{
+    background-color: aliceblue;
+    height: 100%;
+}
+.inner-box h2{
+    font-size: 17px;
+}
+.inner-box li{
+    font-size: 14px;
+    list-style: none;
+    margin-bottom: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+.second-row{
+    width: 318px;
+    background-color: #bababa;
+    height: 350px;
+}
+.third-row{
+    width: 318px;
+    background-color: #bababa;
+    height: 200px;
+
 }
