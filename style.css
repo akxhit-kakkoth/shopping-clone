@@ -149,8 +149,10 @@ span{
 .panel-all i{
     font-size: 1.2rem;
 }
-.panel-ops p{
+.panel-ops a{
     display: inline;
+    text-decoration: none;
+    color: white;
     margin-left: 10px;
     font-size: 15px;
     cursor: pointer;

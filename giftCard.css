@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: arial;
+}
+.list{
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    color: #333333;
+}
+.sub-nav{
+    height: 33px;
+    padding: 0px 9px 0px 15px;
+    border-bottom: 1px solid rgb(221, 219, 219);
+    display: flex;
+    align-items: center;
+}
+.sub-nav a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.hero{
+    height: 3543px;
+    padding: 14px 18px 18px;
+}
+.holiday-shop{
+    height: 63.8px;
+}
+
+/*  */
+.topcard{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.topcard img{
+    height: 50px;
+}
+
+.giftCardShop img{
+    height: 111px;
+    margin-top: 60px;
+}
+.header1{
+    height: 28px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.header1 p{
+    font-size: 15px;
+    color: #2162A1;
+    padding-top: 4px;
+    font-weight: normal;
+}
+/* scroll 1 */
+.celebrate-scroll{
+    height: 276px;
+    /* background-color: antiquewhite; */
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    /* overflow-x: hidden; */
+}
+.card{
+    height: 100%;
+    display: inline-block;
+
+}
+.card img{
+    height: 220px;
+    width: 240px;
+}
+.card p{
+    font-size: 14px;
+}
+.card .price{
+    font-size: 18px;
+}
